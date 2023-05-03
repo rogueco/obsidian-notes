@@ -11,8 +11,12 @@
             "id": "a3efe107286fcfc6",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md"
+              }
             }
           }
         ]
@@ -140,8 +148,32 @@
   },
   "active": "a3efe107286fcfc6",
   "lastOpenFiles": [
-    "Obsidian Defaults/Tags.md",
-    "README.md",
+    "Development/Technical Articles/3 Terminal Commands to Increase Your Productivity 60a7754b4d6540ef877e623610031483.md",
+    "Development/Technical Articles/A Design Analysis of Cloud-based Microservices Arc 1f2f94adf82b40f1a214cc8c1a5c2773.md",
+    "Development/Technical Articles/7 Super Useful Aliases to make your development li 47e9381258c94f0e9d397078eb245573.md",
+    "Development/Technical Articles/Microservices Authentication and Authorization Sol 3f63f991cbbd461d865469d9edcd9a11.md",
+    "Development/Technical Articles/Layered Architecture with ASP NET Core, Entity Fra 56dfa8dbf87345849feb4b690da11b0f.md",
+    "Development/Technical Articles/Kubernetes Ingress — AWS EKS Cluster with AWS Load c47d28f6cc514f198144d89bc8602340.md",
+    "Development/Technical Articles/Install AWS Command Line Interface (CLI) on Ubuntu ab329c052d4042c1a770958c81bc8a4d.md",
+    "Development/Technical Articles/How to use C# events to decouple systems 2ca3d45ea98a44ecada0c66be3762563.md",
+    "Development/Technical Articles/How to read technical books fef05ec288dc4efcaa10c0a8ca07f467.md",
+    "Development/Technical Articles/How to Learn SOLID Design Principles in ≈5 Minutes 1fa65dd6e81d4dc08b6d2f2a6fbc1213.md",
+    "Development/Technical Articles/How to Fan-Out to Different SQS Queues Using SNS M 190541c5115d4223bab597f2be41ff11.md",
+    "Development/Technical Articles/How to create a Selenium web scraper in Azure Func 4aa66f2e206944cca8aa0c30f9a9aea1.md",
+    "Development/Technical Articles/How to Choose a Database for Microservices — CAP T 163b5bbfb5a9433db58338fc2dc78b7d.md",
+    "Development/Technical Articles/How to Build an Event-Driven ASP NET Core Microser 2ac050048e5c42eab98507d68541ec88.md",
+    "Development/Technical Articles/How I use aliases to speed up my development workf 3d5171e8cfe94bb5ba0e1b86028d9590.md",
+    "Development/Technical Articles/How I Configure VS Code for Everything b7afc4797ec94dc7a92b1e16dc5df49b.md",
+    "Development/Technical Articles/Getting Started with IaC Tools How to Set up & Use 002af50585da4fcebc0a30599f16ce85.md",
+    "Development/Technical Articles/Generic Repository & Unit Of Work Patterns in NET 9e971f6fcc104f1f9958650072c5d47f.md",
+    "Development/Technical Articles/Extending C# objects with our own custom methods cedf850333da4847bdf2e12b5e216e58.md",
+    "Development/Technical Articles/Developing Web API’s — Microservices Architecture, 95288c4e11814a0287e474609ed192dd.md",
+    "Development/Technical Articles/Design Patterns The Bridge Pattern 393cc77cc41b4a3b8b7dba8fd820a51a.md",
+    "Development/Technical Articles/Design detail crafting better shadows for interact 2ddc71905e4248d0ae81418b778dc6b9.md",
+    "Development/Technical Articles/Deploying Net Microservices to Azure Kubernetes Se f3b95a5de2874864a833fcc2a9a50d65.md",
+    "Development/Technical Articles/Deploying Microservices on Kubernetes 791cf515423d4caf940c1428cf5e2a59.md",
+    "Development/Technical Articles/Deploy Microservices into Cloud Azure Kubernetes S 72fb64e94fe74eb9adc5ec9e9c94cb39.md",
+    "Development/Technical Articles/Decorator Design Pattern in ASP NET Core bbc7e23c81af4e5a90f7445fcfd8b270.md",
     "Utility",
     "Development/Technical Articles/golang",
     "Development/Technical Articles/DotNet",
