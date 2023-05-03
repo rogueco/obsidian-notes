@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "b59c55df9ffc8dd0",
+        "id": "065db947e284a03f",
         "type": "tabs",
         "children": [
           {
-            "id": "4fc85dd113959037",
+            "id": "a3efe107286fcfc6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "README.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "README.md"
-              }
+              "state": {}
             }
           }
         ]
@@ -146,6 +138,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4fc85dd113959037",
-  "lastOpenFiles": []
+  "active": "a3efe107286fcfc6",
+  "lastOpenFiles": [
+    "Obsidian Defaults/Tags.md",
+    "README.md",
+    "Utility",
+    "Development/Technical Articles/golang",
+    "Development/Technical Articles/DotNet",
+    "Development/Project Management",
+    "Development/Freelance",
+    "Development/Personal Development",
+    "Development/Technical Articles",
+    "Development"
+  ]
 }

@@ -8,7 +8,7 @@ kanban-plugin: basic
 
 **Complete**
 - [x] [[iGolf missing county field]]
-- [x] [[Development/Kanban/Tickets/SG_Chat]]
+- [x] [[SG_Chat]]
 
 
 ## Doing

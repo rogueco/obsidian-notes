@@ -72,5 +72,5 @@
 | England Golf| Data, Insight & Research Manager |
 
 ### Meetings Attended
-- [[Chats/Golf England/CRM/05-05-2022 - CRM]]
+- [[05-05-2022 - CRM]]
 - 
