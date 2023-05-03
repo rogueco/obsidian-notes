@@ -1,0 +1,207 @@
+{
+  "main": {
+    "id": "a0a52db2250bcae5",
+    "type": "split",
+    "children": [
+      {
+        "id": "d6f8170a97e7ac4c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5249373a6665657",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/Artices/Dapper/Multiple Mapping.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e3243f2504330889",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Obsidian Defaults/General/Tags.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "e0708ceee1690947",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/Snowflake/Snowflake Integration Guide.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "92e8de34d2bcf836",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Development/WIKI/Database/Database First.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b040ce18a26029ca",
+    "type": "split",
+    "children": [
+      {
+        "id": "f531c5b274343e3d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "02dd3103926364b6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "c8f69b330722dbd0",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "5f115cf7d2993bb3",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4b4b6811accb963e",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a579e395eb5c4b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a8c0874da2301c15",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Development/WIKI/Database/Database First.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "a1e083ea7d6d2ba0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Development/WIKI/Database/Database First.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "47dbbb02a2c52f7e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "cafdd2f67d84a1f3",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Development/WIKI/Database/Database First.md"
+              }
+            }
+          },
+          {
+            "id": "8b386c72a11c14c8",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "02dd3103926364b6",
+  "lastOpenFiles": [
+    "Freelance/Simran/Untitled.md",
+    "Development/Snowflake/Snowflake Integration Guide.md",
+    "Development/Artices/Dapper/Dapper Object Mapper for .NET Projects With Examples.md",
+    "Obsidian Defaults/General/Tags.md",
+    "Development/Artices/Dapper/Multiple Mapping.md",
+    "Development/Snowflake/TODO.md",
+    "Development/WIKI/General/Clean Architecture.md",
+    "Development/WIKI/Database/Database First.md",
+    "Development/WIKI/NuGet/Packages.md"
+  ]
+}
