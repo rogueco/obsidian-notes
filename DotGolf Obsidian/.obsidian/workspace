@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "804f50d52c776f95",
+    "type": "split",
+    "children": [
+      {
+        "id": "82ea12ab7f67bf41",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Development/R&D/Snowflake/Pricing.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "926ae4d1eeeacc82",
+    "type": "split",
+    "children": [
+      {
+        "id": "8dad5dc0321e36ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9a4a2b9a3789792",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b87954b567d29791",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4c9efa48896ea88b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e3af4d5a4b4dceb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93bc8961725040cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Development/R&D/Snowflake/Pricing.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9713faa8a33c42ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "82ea12ab7f67bf41",
+  "lastOpenFiles": [
+    "Development/R&D/Snowflake/Pricing.md",
+    "Sites/Sites.md",
+    "SQL Queries/5006500.md",
+    "General/Links.md",
+    "Directory/External/Wales Golf Contacts.md",
+    "Chats/Golf England/CRM/05-05-2022 - CRM.md",
+    "Directory/External/England Golf Contacts.md",
+    "General/General Questions.md",
+    "Chats/DotGolf NZ/DG Visit/DG Visit.md",
+    "General/Tickets/WC 09-05-22/5005635 - Penalty Scores Reports.md"
+  ]
+}

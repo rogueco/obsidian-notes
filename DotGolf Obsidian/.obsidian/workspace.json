@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "804f50d52c776f95",
+    "type": "split",
+    "children": [
+      {
+        "id": "fc0089db1472c188",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6d9ea5d6dc151498",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "SQL Queries/iGolf/Member General Play Extract.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "926ae4d1eeeacc82",
+    "type": "split",
+    "children": [
+      {
+        "id": "8dad5dc0321e36ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b9a4a2b9a3789792",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b87954b567d29791",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "4c9efa48896ea88b",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e3af4d5a4b4dceb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93bc8961725040cd",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "SQL Queries/iGolf/Member General Play Extract.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9713faa8a33c42ec",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "3ca347fb43b7254b",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "58d5d633beb9ffc5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 2
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "b9a4a2b9a3789792",
+  "lastOpenFiles": [
+    "SQL Queries/iGolf/All Member Report.md",
+    "SQL Queries/iGolf/Member General Play Extract.md",
+    "SQL Queries/Documentation/SQL/Delete Memeber.md",
+    "SQL Queries/Documentation/SQL/Data Request.md",
+    "SQL Queries/Documentation/Handicap at X date.md",
+    "SQL Queries/England Golf/Participation Report.md",
+    "SQL Queries/England Golf/Data Request.md",
+    "SQL Queries/Untitled.md",
+    "SQL Queries/R&A/Short Course Query.md",
+    "SQL Queries/R&A/Annual Data Request.md",
+    "SQL Queries/Golf Ireland/App Registration.md",
+    "SQL Queries/Golf Ireland/DG-7680 - Registered without app.md",
+    "SQL Queries/Golf Ireland/Member Count by County Non-Played.md",
+    "SQL Queries/Golf Ireland/Members that haven't submitted a GP score.md",
+    "SQL Queries/Golf Ireland/Northern Ireland Queries.md",
+    "General/Links.md",
+    "General/Architecture.md",
+    "General/General Questions.md"
+  ]
+}
