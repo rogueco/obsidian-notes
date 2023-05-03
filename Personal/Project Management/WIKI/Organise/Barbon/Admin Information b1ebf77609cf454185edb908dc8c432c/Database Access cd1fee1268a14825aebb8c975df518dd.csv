@@ -1,0 +1,7 @@
+﻿Database,Environment,Access Type,Service,Host,Username,Password
+DB1,Live,Read-Only,,http://db1-internal.barbon.com/,marnold,OWn3D4r53
+DB2,Live,Read-Only,,http://db1-internal.barbon.com/,marnold,OWn3D4r53
+IRIS 3,Staging,Read/Write,IRIS,http://ref.db.dev.barbondev.co.uk/,tom,**************?1
+IRIS Live,Live,Read-Only,IRIS,http://ref.cykgggcdrzyv.eu-west-1.rds.amazonaws.com/,tom,**************?1
+Staging 3,Staging,,,staging3.global.sec.local,marnold,OWn3D4r53
+,,,,,,

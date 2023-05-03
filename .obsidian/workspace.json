@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "065db947e284a03f",
+        "id": "f6987e36e4af81e0",
         "type": "tabs",
         "children": [
           {
-            "id": "a3efe107286fcfc6",
+            "id": "4746c4f1ffa664de",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,12 +118,19 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Development/Technical Articles/A Brief Intro to Clean Architecture, Clean DDD, an 099ce750794f4b7bbe9ec3968a15a25c.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "604b47ef6d1dcb25",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -143,44 +144,54 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "a3efe107286fcfc6",
+  "active": "4746c4f1ffa664de",
   "lastOpenFiles": [
-    "Development/Technical Articles/3 Terminal Commands to Increase Your Productivity 60a7754b4d6540ef877e623610031483.md",
-    "Development/Technical Articles/A Design Analysis of Cloud-based Microservices Arc 1f2f94adf82b40f1a214cc8c1a5c2773.md",
-    "Development/Technical Articles/7 Super Useful Aliases to make your development li 47e9381258c94f0e9d397078eb245573.md",
-    "Development/Technical Articles/Microservices Authentication and Authorization Sol 3f63f991cbbd461d865469d9edcd9a11.md",
-    "Development/Technical Articles/Layered Architecture with ASP NET Core, Entity Fra 56dfa8dbf87345849feb4b690da11b0f.md",
-    "Development/Technical Articles/Kubernetes Ingress — AWS EKS Cluster with AWS Load c47d28f6cc514f198144d89bc8602340.md",
-    "Development/Technical Articles/Install AWS Command Line Interface (CLI) on Ubuntu ab329c052d4042c1a770958c81bc8a4d.md",
-    "Development/Technical Articles/How to use C# events to decouple systems 2ca3d45ea98a44ecada0c66be3762563.md",
-    "Development/Technical Articles/How to read technical books fef05ec288dc4efcaa10c0a8ca07f467.md",
-    "Development/Technical Articles/How to Learn SOLID Design Principles in ≈5 Minutes 1fa65dd6e81d4dc08b6d2f2a6fbc1213.md",
-    "Development/Technical Articles/How to Fan-Out to Different SQS Queues Using SNS M 190541c5115d4223bab597f2be41ff11.md",
-    "Development/Technical Articles/How to create a Selenium web scraper in Azure Func 4aa66f2e206944cca8aa0c30f9a9aea1.md",
-    "Development/Technical Articles/How to Choose a Database for Microservices — CAP T 163b5bbfb5a9433db58338fc2dc78b7d.md",
-    "Development/Technical Articles/How to Build an Event-Driven ASP NET Core Microser 2ac050048e5c42eab98507d68541ec88.md",
-    "Development/Technical Articles/How I use aliases to speed up my development workf 3d5171e8cfe94bb5ba0e1b86028d9590.md",
-    "Development/Technical Articles/How I Configure VS Code for Everything b7afc4797ec94dc7a92b1e16dc5df49b.md",
-    "Development/Technical Articles/Getting Started with IaC Tools How to Set up & Use 002af50585da4fcebc0a30599f16ce85.md",
-    "Development/Technical Articles/Generic Repository & Unit Of Work Patterns in NET 9e971f6fcc104f1f9958650072c5d47f.md",
-    "Development/Technical Articles/Extending C# objects with our own custom methods cedf850333da4847bdf2e12b5e216e58.md",
-    "Development/Technical Articles/Developing Web API’s — Microservices Architecture, 95288c4e11814a0287e474609ed192dd.md",
-    "Development/Technical Articles/Design Patterns The Bridge Pattern 393cc77cc41b4a3b8b7dba8fd820a51a.md",
-    "Development/Technical Articles/Design detail crafting better shadows for interact 2ddc71905e4248d0ae81418b778dc6b9.md",
-    "Development/Technical Articles/Deploying Net Microservices to Azure Kubernetes Se f3b95a5de2874864a833fcc2a9a50d65.md",
-    "Development/Technical Articles/Deploying Microservices on Kubernetes 791cf515423d4caf940c1428cf5e2a59.md",
-    "Development/Technical Articles/Deploy Microservices into Cloud Azure Kubernetes S 72fb64e94fe74eb9adc5ec9e9c94cb39.md",
-    "Development/Technical Articles/Decorator Design Pattern in ASP NET Core bbc7e23c81af4e5a90f7445fcfd8b270.md",
-    "Utility",
-    "Development/Technical Articles/golang",
-    "Development/Technical Articles/DotNet",
-    "Development/Project Management",
-    "Development/Freelance",
-    "Development/Personal Development",
-    "Development/Technical Articles",
-    "Development"
+    "Personal/Project Management/Net/Delete Bin & Obj 90b430690929406b935595d674bb7303.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/Untitled d92cd585dffd42928d0aa63a18a70358.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/Untitled 1721b35913b4448c81328803cf91c24a.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/Untitled ba53af7d16044648bd538f949d1e13e6.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/#17084 e3709e935c5c4dc3a11202c438867e58.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d/Update Workpapers Advanced Screen (Template) db6eed4c2f57457186ea55b23685f2d7.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d/Delete All Workprograms 6f044ce6ede74e0e9e7a3703513aaad7.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d/Delete All Workprogram Template Pack 274bed4220b94d068c1d6c7ed8eb90cd.md",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d/Add User Roles Identity c071ed6e6bf24563ba7228fd4a68b36b.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Useful Domain URLS 2bb39b62e26641cd84e7e61fe33b104c/Development URLS e68d5b13445545c88c20aa09858147e6/Untitled 454a5bc9f0ae4d60a0f3f09579ad5fb8.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Useful Domain URLS 2bb39b62e26641cd84e7e61fe33b104c/Development URLS e68d5b13445545c88c20aa09858147e6/Tenant Application Tracker (TAT) c23393295cef4325b63ee93b34730c5a.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Useful Domain URLS 2bb39b62e26641cd84e7e61fe33b104c/Development URLS e68d5b13445545c88c20aa09858147e6/Untitled 1e8aca771a7045e0b3527eb50687ed19.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Engineering Interviews e93256747e65499eb216b4371f2a2f3e/Questions e2a17640cb424b7280d02137809837c3/To Do List Design 8acfb440bcc84390a571a1ef82918098.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Engineering Interviews e93256747e65499eb216b4371f2a2f3e/Questions e2a17640cb424b7280d02137809837c3/FizzBuzz 844c888818a64ef8b42b2877454b33fd.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Engineering Interviews e93256747e65499eb216b4371f2a2f3e/Questions e2a17640cb424b7280d02137809837c3/Alphabet Ordering 567a28a2aac1411fbc8cbfeeb83b707f.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Test Bank Account Details e0470c201249484b8bb5edd3aa7ff05d/Untitled 2dec4a038f4e487b8b6961d3f4ada9cd.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Test Bank Account Details e0470c201249484b8bb5edd3aa7ff05d/12345678 ab5e0892debd4f89840870647191a4d4.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Test Bank Account Details e0470c201249484b8bb5edd3aa7ff05d/07806039 4e1db135a0874a65b495c4009038f80c.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/Untitled 836eab2aaed741f0b37e2df3274296d1.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/Untitled 352b6fcca4264b84b13cfc0d64944579.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/Untitled 2bab824853524b46b043423d1e3a615f.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/RentShield Test Agent d97e4714e178426a9df8afeae9f4352c.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/RentShield Test Agent 25b3049b434e4975987f45171e55cfa8.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/IRIS 280eb4a5975c4879b59a9d435488f80b.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/IRIS 0af01db52d95443c94b037ca2dcfb2cf.md",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Login Details 6753eb4b97c04d6193d4987811998040/IAS 73dd5fc698804be99d8926d1f9bdc489.md",
+    "Personal/Project Management/WIKI/Organise/Microservices/What Are Microservices acd5462babaa44a984d59b2a6e99202a/Untitled.png",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9.csv",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d.csv",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d",
+    "Personal/Project Management/WIKI/Organise/IS Wiki/Random Weird Issues a3e7aa7c36b540f3a2c1645bc2ab1675/Untitled.png",
+    "Personal/Project Management/WIKI/Organise/Barbon/Useful Domain URLS 2bb39b62e26641cd84e7e61fe33b104c/Development URLS e68d5b13445545c88c20aa09858147e6.csv",
+    "Personal/Project Management/WIKI/Organise/Barbon/Useful Domain URLS 2bb39b62e26641cd84e7e61fe33b104c/Development URLS e68d5b13445545c88c20aa09858147e6",
+    "Personal/Project Management/WIKI/Organise/Barbon/Engineering Interviews e93256747e65499eb216b4371f2a2f3e/Questions e2a17640cb424b7280d02137809837c3.csv",
+    "Personal/Project Management/WIKI/Organise/Barbon/Engineering Interviews e93256747e65499eb216b4371f2a2f3e/Questions e2a17640cb424b7280d02137809837c3",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Test Bank Account Details e0470c201249484b8bb5edd3aa7ff05d.csv",
+    "Personal/Project Management/WIKI/Organise/Barbon/Admin Information b1ebf77609cf454185edb908dc8c432c/Test Bank Account Details e0470c201249484b8bb5edd3aa7ff05d",
+    "Personal/Project Management/Organise/Microservices/What Are Microservices acd5462babaa44a984d59b2a6e99202a/Untitled.png",
+    "Personal/Project Management/Organise/IS Wiki/Random Weird Issues a3e7aa7c36b540f3a2c1645bc2ab1675/Untitled.png",
+    "Personal/Project Management/Microservices/What Are Microservices acd5462babaa44a984d59b2a6e99202a/Untitled.png",
+    "Personal/Project Management/IS Wiki/Random Weird Issues a3e7aa7c36b540f3a2c1645bc2ab1675/Untitled.png",
+    "Untitled.canvas"
   ]
 }
