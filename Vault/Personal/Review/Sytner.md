@@ -1,8 +1,0 @@
-- [ ] Utilities
-- [ ] Kubenetes
-- [ ] Pipelines
-- [ ] Service Communication
-- [ ] SQL Setup
-- [ ] Repo Setup
-- [ ] Switch Statement (Finance API)
-- [ ] Environment Variables

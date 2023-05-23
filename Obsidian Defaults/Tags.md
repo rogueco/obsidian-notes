@@ -22,3 +22,10 @@
 -   #idea: for notes that contain new ideas or potential projects
 -   #meeting: for notes that relate to meetings
 -   #article: for notes that relate to articles or other sources of information
+- #dotnet
+#blogIdea
+#dapper
+#entityFrameworkCore
+#softwareDevelopment
+#softwareEngineering
+#database

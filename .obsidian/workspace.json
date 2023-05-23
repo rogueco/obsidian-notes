@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "f6987e36e4af81e0",
+        "id": "715b780de5496a3f",
         "type": "tabs",
         "children": [
           {
-            "id": "4746c4f1ffa664de",
+            "id": "b63225d129b3c18d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract/V3.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract/V3.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract/V3.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract/V3.md"
+              }
             }
           },
           {
@@ -148,45 +156,45 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "4746c4f1ffa664de",
+  "active": "b63225d129b3c18d",
   "lastOpenFiles": [
+    "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract/V2 Optimised.md",
+    "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract/V3.md",
+    "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract/Member General Play Extract.md",
+    "Work/DotGolf/SQL Queries/iGolf/Member General Play Extract",
+    "Work/DotGolf/SQL Queries/iGolf/All Member Report.md",
+    "Vault/Development/WIKI/Database/Database First.md",
+    "Vault/Development/WIKI/Blog/Ideas.md",
+    "Vault/Development/Snowflake/Snowflake Integration Guide.md",
+    "Vault/Development/Snowflake/TODO.md",
+    "Vault/Work/Opportunities/DotGolf.md",
     "Vault/Work/Interviews/DotGolf/Interview NO.4 - 23-03-22.md",
     "Vault/Work/Interviews/DotGolf/Equipment.md",
-    "Vault/Work/Opportunities/DotGolf.md",
+    "Vault/Personal/Git/Site.md",
+    "Vault/Personal/Dan M - Code review.md",
+    "Vault/Personal/Review/Sytner.md",
+    "Vault/Personal/House/Material.md",
+    "Obsidian Defaults/Tags.md",
+    "Vault/Obsidian Defaults/General/Tags.md",
     "Vault/Work/Interviews/DotGolf",
     "Vault/Work/Opportunities",
     "Vault/Work/Interviews",
     "Vault/Work",
     "Vault/Tootie/Data.md",
     "Vault/Tootie",
-    "Vault/Personal/Review/Sytner.md",
-    "Vault/Personal/House/Material.md",
-    "Vault/Personal/Git/Site.md",
     "Vault/Personal/Review",
     "Vault/Personal/House",
     "Vault/Personal/Git",
-    "Vault/Personal/Dan M - Code review.md",
     "Vault/Personal",
-    "Vault/Obsidian Defaults/General/Tags.md",
-    "Vault/Obsidian Defaults/Templates",
     "Vault/Images/Pasted image 20221121144405.png",
     "Vault/Freelance/Simran/Untitled.md",
-    "Vault/Development/WIKI/NuGet/Packages.md",
     "Vault/Development/WIKI/General/Clean Architecture.md",
-    "Vault/Development/WIKI/Database/Database First.md",
-    "Vault/Development/WIKI/Blog/Ideas.md",
-    "Vault/Development/Snowflake/TODO.md",
-    "Vault/Development/Snowflake/Snowflake Integration Guide.md",
+    "Vault/Development/WIKI/NuGet/Packages.md",
     "Vault/Development/Artices/Dapper/Multiple Mapping.md",
     "Vault/Development/Artices/Dapper/Dapper Object Mapper for .NET Projects With Examples.md",
     "Personal/Project Management/Net/Delete Bin & Obj 90b430690929406b935595d674bb7303.md",
     "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/Untitled d92cd585dffd42928d0aa63a18a70358.md",
     "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/Untitled 1721b35913b4448c81328803cf91c24a.md",
-    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/Untitled ba53af7d16044648bd538f949d1e13e6.md",
-    "Personal/Project Management/WIKI/Organise/IS Wiki/Ticket Notes 4426e6fcaebd42fd8941d97dc548cbeb/Untitled Database de5e9691f6444a75a69ab0a01d99b2d9/#17084 e3709e935c5c4dc3a11202c438867e58.md",
-    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d/Update Workpapers Advanced Screen (Template) db6eed4c2f57457186ea55b23685f2d7.md",
-    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d/Delete All Workprograms 6f044ce6ede74e0e9e7a3703513aaad7.md",
-    "Personal/Project Management/WIKI/Organise/IS Wiki/SQL Queries ff9bef2a16a044659cae2ade31515a17/Common Queries df1217e31c7f42be8e2278a8969c8d3d/Delete All Workprogram Template Pack 274bed4220b94d068c1d6c7ed8eb90cd.md",
     "Personal/Project Management/WIKI/Organise/Microservices/What Are Microservices acd5462babaa44a984d59b2a6e99202a/Untitled.png",
     "Personal/Project Management/WIKI/Organise/IS Wiki/Random Weird Issues a3e7aa7c36b540f3a2c1645bc2ab1675/Untitled.png",
     "Personal/Project Management/Organise/Microservices/What Are Microservices acd5462babaa44a984d59b2a6e99202a/Untitled.png",

@@ -1,0 +1,94 @@
+Maybe
+
+```sql
+
+SET TRANSACTION ISOLATION LEVEL READ UNCOMMITTED
+DECLARE @gender VARCHAR(1) = 'B';
+DECLARE @ClubId INT = 910053;
+DECLARE @HandicapFrom DECIMAL(4,1);
+DECLARE @HandicapTo DECIMAL(4,1);
+DECLARE @FromDate DATE = '2021-07-13'
+DECLARE @ToDate DATE = '2023-05-22'
+DECLARE @includecompetitionscores bit = 0
+
+-- Use a CTE for better performance
+WITH CTE_Member AS (
+    SELECT m.MemberId
+    FROM Member m
+    INNER JOIN cmember cm 
+        ON cm.memberid=m.memberid 
+            AND cm.Clubid = @ClubId 
+            AND cm.date_resigned is null
+    WHERE (
+            @gender = 'B'
+            OR @gender = m.gender
+        )
+        AND (m.nzga_handicap >= @HandicapFrom OR @HandicapFrom is null OR m.nzga_handicap is null)
+        AND (m.nzga_handicap <= @HandicapTo OR @HandicapTo is null)
+        AND EXISTS(
+            SELECT 1 
+            FROM score s 
+            WHERE s.PlayDate >= @FromDate AND s.PlayDate <= @ToDate AND s.deleteddate is null AND s.MemberId=m.memberId
+        )
+)
+
+SELECT 
+    s.PlayDate,
+    S.PlayDateTime AS [Scorecard Download],
+    ME.CreateDate AS [Score Submitted],
+    S.CaptureDate AS [Score Attested Or Entered By ISV],
+    m.MemberId,
+    m.CentralMemberCode AS [Member No.],
+    COALESCE(m.Name, CONCAT(m.LastName, ', ', m.FirstName)) AS [Name], 
+    t1.Email,
+    co.Name AS [Course],
+    n.Marker, 
+    s.Score,
+    (CASE WHEN s.IsCompetitionScore = 1 THEN 'Yes' ELSE 'No' END) AS [Competition Score],
+    CASE WHEN s.EnteredVia='A' THEN 'Yes' ELSE 'No' END AS [IsApp],
+    COALESCE(am.Name, s.AttesterInfo) AS [Attester],
+    s.ScoreID,
+    CASE WHEN (SELECT COUNT(*) FROM CTE_Member) = 2500 AND s.ScoreID = FIRST_VALUE(s.ScoreID) OVER (ORDER BY s.ScoreID DESC) 
+         THEN 'More than 2500 members were found.  Please narrow down your handicap filters.' 
+    END AS [Warning]
+FROM Score s
+INNER JOIN CTE_Member t 
+    ON t.MemberId=s.MemberID
+INNER JOIN member m 
+    ON m.MemberId=t.MemberID
+INNER JOIN NZCRData n 
+    ON n.NZCRDataId=s.NZCRDataId
+INNER JOIN Course co 
+    ON co.CourseId=n.CourseId
+LEFT JOIN Scorecard SC 
+    ON S.ScoreID = SC.ScoreID
+LEFT JOIN Message ME 
+    ON ME.MessageId = (
+        SELECT TOP 1 M2.MessageId
+        FROM Message M2
+        WHERE SC.Id = M2.LinkValue
+            AND S.AttesterPassportId = M2.RecipientPassportId
+            AND M2.LinkType = 'VERIFYSCOREREQUEST'
+        ORDER BY M2.CreateDate
+    )
+LEFT JOIN Passport p 
+    ON p.PassportId=s.AttesterPassportId
+LEFT JOIN Member am 
+    ON am.MemberId=p.MemberId
+LEFT JOIN (
+    SELECT TOP 1 Email, MemberId
+    FROM Cmember 
+    WHERE ClubId=@ClubId AND date_resigned IS NULL AND Email IS NOT NULL AND Email != ''
+    ORDER BY Date_Started DESC
+) t1 ON t1.MemberId=m.MemberId
+WHERE s.PlayDate BETWEEN @FromDate AND @ToDate
+  AND s.IsPenaltyScore = 0
+  AND s.DeletedDate IS NULL
+  AND (
+        (@includecompetitionscores=1) -- Show All
+        OR (@includecompetitionscores=0 AND ISNULL(s.IsCompetitionScore,0) = 0) -- Competition scores
+    )
+ORDER BY s.ScoreId DESC
+OPTION (RECOMPILE)
+
+```
