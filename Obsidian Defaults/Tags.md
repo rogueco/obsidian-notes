@@ -29,3 +29,21 @@
 #softwareDevelopment
 #softwareEngineering
 #database
+
+
+| Tag           | Description |
+| ------------- | ----------- |
+| #serverless   |             |
+| #golang       |             |
+| #microservice |             |
+| #dynamoDB     |             |
+| #noSQL        |             |
+| #aws          |             |
+| #cloud        |             |
+| #lambda       |             |
+| #aws          |             |
+| #javascript   |             |
+| #apiGateway   |             |
+| #sqs          |             |
+| #eventBridge  |             |
+|               |             |
